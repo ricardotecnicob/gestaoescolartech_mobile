@@ -25,7 +25,12 @@ export default function ModalNotes(props) {
   return (
     <Modal
       isVisible={visible}
-      style={{ justifyContent: 'center', alignItems: 'center' }}
+      style={{
+        paddingTop: 20,
+        justifyContent: 'center',
+        alignItems: 'center',
+        position: 'absolute',
+      }}
       onBackdropPress={close}
       deviceHeight={Dimensions.get('window').height + 9999}
       {...restProps}
