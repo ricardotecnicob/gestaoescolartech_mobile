@@ -1,0 +1,218 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "role": "admin",
+      "name": "Helen A. Gullickson",
+      "email": "admin@bilheteescolar.com",
+      "phone": "+5561912341234"
+    },
+    {
+      "id": 2,
+      "role": "teacher",
+      "name": "Inez J. Clark",
+      "email": "professoramarcia@bilheteescolar.com",
+      "phone": "+5562912341235"
+    },
+    {
+      "id": 3,
+      "role": "father",
+      "name": "Armando A. Melton",
+      "email": "joanamae@bilheteescolar.com",
+      "phone": "+5532922341239"
+    },
+    {
+      "id": 4,
+      "role": "father",
+      "name": "Felipe A. Chen",
+      "email": "josepai@bilheteescolar.com",
+      "phone": "+5561912341237"
+    },
+    {
+      "id": 5,
+      "role": "father",
+      "name": "Ann S. Moss",
+      "email": "fabianaqueiroz@bilheteescolar.com",
+      "phone": "+5561912341230"
+    },
+    {
+      "id": 6,
+      "role": "father",
+      "name": "Virginia R. Beene",
+      "email": "tiaamelia@bilheteescolar.com"
+    }
+  ],
+  "notes": [
+    {
+      "id": 1,
+      "name": "Parents Meeting",
+      "description": "This month's meeting will be August 4th, 2019, please attend.",
+      "createdAt": "2019-11-14 18:59:25.073+00"
+    },
+    {
+      "id": 2,
+      "name": "Homework Geography",
+      "description": "This week's homework are all activities in Chapter 1 of the Geography Book, please ensure your child does all the activities.",
+      "createdAt": "2019-11-13 18:59:25.073+00"
+    },
+    {
+      "id": 3,
+      "name": "Holiday in Easter",
+      "description": "This Friday, April 21st there will be no class due to the Easter holiday. We wish you a good holiday.",
+      "createdAt": "2019-11-12 18:59:25.073+00"
+    },
+    {
+      "id": 4,
+      "name": "John's Party",
+      "description": "February 12th will be John's birthday. It will take place at Sport Aqua club, please click OK to confirm your child's participation.",
+      "createdAt": "2019-11-14 18:59:25.073+00"
+    },
+    {
+      "id": 5,
+      "name": "School Party",
+      "description": "The school year is coming to an end and we will host a party for everyone. It will be December 19th at 8:00 pm in the school gym. Hope you all come.",
+      "createdAt": "2019-11-14 18:59:25.073+00"
+    }
+  ],
+  "classes": [
+    {
+      "id": 1,
+      "name": "1th Grade",
+      "students": [
+        {
+          "id": 1,
+          "name": "Peggy Bates Melton",
+          "parents": [
+            {
+              "name": "José Dias da Silva",
+              "user_id": 4,
+              "phone": "+5561912341233"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Regina Hickman Moss",
+          "parents": [
+            {
+              "name": "José Dias da Silva",
+              "user_id": 4,
+              "phone": "+5561912341233"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Jacob Edwards Clark",
+          "parents": [
+            {
+              "name": "José Dias da Silva",
+              "user_id": 4,
+              "phone": "+5561912341233"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "2th Grade",
+      "students": [
+        {
+          "id": 4,
+          "name": "Frank Pemberton Chen",
+          "parents": [
+            {
+              "name": "José Dias da Silva",
+              "user_id": 4,
+              "phone": "+5561912341233"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Kathleen Alexander Gullickson",
+          "parents": [
+            {
+              "name": "José Dias da Silva",
+              "user_id": 4,
+              "phone": "+5561912341233"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Stanley Cairns Chen",
+          "parents": [
+            {
+              "name": "José Dias da Silva",
+              "user_id": 4,
+              "phone": "+5561912341233"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Carmen Robertson Beene",
+          "parents": [
+            {
+              "name": "José Dias da Silva",
+              "user_id": 4,
+              "phone": "+5561912341233"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "6th Grade",
+      "students": [
+        {
+          "id": 8,
+          "name": "Lacy Pemberton Moss",
+          "parents": [
+            {
+              "name": "José Dias da Silva",
+              "user_id": 4,
+              "phone": "+5561912341233"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Kathleen Sosa Gullickson",
+          "parents": [
+            {
+              "name": "José Dias da Silva",
+              "user_id": 4,
+              "phone": "+5561912341233"
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "name": "Stanley Smith Cairns",
+          "parents": [
+            {
+              "name": "José Dias da Silva",
+              "user_id": 4,
+              "phone": "+5561912341233"
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Carmen Olsen Warren",
+          "parents": [
+            {
+              "name": "José Dias da Silva",
+              "user_id": 4,
+              "phone": "+5561912341233"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
